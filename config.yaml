@@ -1,0 +1,24 @@
+artifacts_dir: "artifacts"
+
+data_ingestion:
+  raw_data_path: "artifacts/raw.csv"
+  train_data_path: "artifacts/train.csv"
+  test_data_path: "artifacts/test.csv"
+  test_size: 0.2
+  random_state: 42
+
+data_transformation:
+  tokenizer_path: "artifacts/tokenizer.pkl"
+  label_encoder_path: "artifacts/label_encoder.pkl"
+  glove_matrix_path: "artifacts/glove_matrix.npy"
+  max_words: 20000
+  max_len: 150
+  embedding_dim: 100
+
+model_training:
+  bilstm_model_path: "artifacts/bilstm_model.h5"
+  lstm_model_path: "artifacts/lstm_model.h5"
+  cnn_model_path: "artifacts/cnn_model.h5"
+  epochs: 5
+  batch_size: 64
+

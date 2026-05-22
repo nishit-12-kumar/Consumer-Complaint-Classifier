@@ -1,0 +1,16 @@
+# Environments
+venv/
+__pycache__/
+
+# Datasets and Embeddings
+glove.6B.*
+*.csv
+
+# Model Artifacts
+artifacts/
+*.h5
+*.pkl
+*.npy
+
+# Logs
+logs/
