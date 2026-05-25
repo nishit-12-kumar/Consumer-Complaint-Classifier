@@ -1,0 +1,13 @@
+[theme]
+# Deep corporate blue for buttons and accents
+primaryColor = "#0052cc"
+# Pure white background for a clean look
+backgroundColor = "#ffffff"
+# Very subtle light grey for the sidebar and secondary elements
+secondaryBackgroundColor = "#f4f5f7"
+# Dark slate text for maximum readability (softer than pure black)
+textColor = "#172b4d"
+font = "sans serif"
+
+[layout]
+max_width = 1200
