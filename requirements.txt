@@ -21,6 +21,7 @@ numpy>=1.22.4,<2.0.0
 # Machine Learning & Deep Learning
 scikit-learn>=1.2.0
 tensorflow==2.15.0
+keras==2.15.0
 
 # Visualization
 matplotlib>=3.5.0
