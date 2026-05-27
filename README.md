@@ -2,9 +2,9 @@
 
 ### Deep Learning NLP System for Financial Complaint Classification
 
-### 🚀 AI-Powered Consumer Complaint Analysis & Explainable NLP System
+### Consumer Complaint Analysis & Explainable NLP System
 
-🔗 **Live Demo:** [Add Your Deployment Link Here]
+🔗 **Live Demo:** https://consumer-complaint-classifier.streamlit.app/
 
 ---
 
@@ -12,7 +12,7 @@
 
    
 
-### 🔗 [View the Live Application Here](#)
+### 🔗 [https://consumer-complaint-classifier.streamlit.app/](#)
 
 ---
 
@@ -284,7 +284,7 @@ Reason:
 ## 5️⃣ Run the Streamlit Application
 
 ```bash
-streamlit run streamlit_app/0_🏠_Home.py
+streamlit run streamlit_app/app.py
 ```
 
 ---
@@ -298,7 +298,9 @@ streamlit run streamlit_app/0_🏠_Home.py
  ┃ ┣ 📜 bilstm_model.h5
  ┃ ┣ 📜 cnn_model.h5
  ┃ ┣ 📜 tokenizer.pkl
- ┃ ┗ 📜 evaluation_metrics.json
+ ┃ ┗ 📜 evaluation_report.json
+ ┃ ┗ 📜 glove_matrix.npy
+ ┃ ┗ 📜 label_encoder.json
  ┃
  ┣ 📂 src/
  ┃ ┣ 📂 components/
@@ -306,12 +308,13 @@ streamlit run streamlit_app/0_🏠_Home.py
  ┃ ┃ ┣ 📜 data_transformation.py
  ┃ ┃ ┣ 📜 model_trainer.py
  ┃ ┃ ┣ 📜 model_evaluation.py
- ┃ ┃ ┣ 📜 xai_visualizer.py
- ┃ ┃ ┗ 📜 pdf_generator.py
+ ┃ ┃ ┣ 📜 attention_extractor.py
+ ┃ ┃ ┗ 📜 report_generator.py
  ┃ ┃
  ┃ ┣ 📂 pipeline/
  ┃ ┃ ┣ 📜 train_pipeline.py
  ┃ ┃ ┗ 📜 predict_pipeline.py
+ ┃ ┃ ┗ 📜 report_pipeline.py
  ┃ ┃
  ┃ ┣ 📜 logger.py
  ┃ ┣ 📜 exception.py
@@ -319,15 +322,16 @@ streamlit run streamlit_app/0_🏠_Home.py
  ┃
  ┣ 📂 streamlit_app/
  ┃ ┣ 📂 components/
- ┃ ┃ ┣ 📜 custom_css.py
- ┃ ┃ ┗ 📜 widgets.py
+ ┃ ┃ ┣ 📜 attention_heatmap.py
+ ┃ ┃ ┗ 📜 confidence_bar.py
+ ┃ ┃ ┗ 📜 ui_tweaks.py
  ┃ ┃
  ┃ ┣ 📂 pages/
- ┃ ┃ ┣ 📜 1_Classify.py
- ┃ ┃ ┣ 📜 2_Model_Comparison.py
- ┃ ┃ ┗ 📜 3_Report_Generation.py
+ ┃ ┃ ┣ 📜 1_classify.py
+ ┃ ┃ ┣ 📜 2_results.py
+ ┃ ┃ ┗ 📜 3_model_Comparison.py
  ┃ ┃
- ┃ ┗ 📜 0_🏠_Home.py
+ ┃ ┗ 📜 app.py
  ┃
  ┣ 📜 requirements.txt
  ┣ 📜 setup.py
@@ -489,7 +493,7 @@ This project is licensed under the MIT License.
 
 ## Nishit Kumar
 
-B.Tech Student | Aspiring Software Engineer | Data Science & NLP Enthusiast
+B.Tech Student | Data Science & NLP Enthusiast
 
 ### Skills
 
@@ -500,24 +504,5 @@ B.Tech Student | Aspiring Software Engineer | Data Science & NLP Enthusiast
 * TensorFlow
 * Python
 * Data Science
-* Full Stack Development
 
 ---
-
-## ⭐ Final Note
-
-This project demonstrates:
-
-* End-to-End NLP Pipeline Development
-* Deep Learning Model Engineering
-* Explainable AI Integration
-* Production-Level Streamlit Deployment
-* Enterprise-style Reporting System
-
-making it a strong portfolio project for:
-
-* Data Science Roles
-* Machine Learning Engineer Roles
-* NLP Engineer Roles
-* AI Research Internships
-* Software Engineering Internships
