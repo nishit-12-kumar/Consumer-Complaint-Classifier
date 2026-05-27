@@ -10,10 +10,6 @@
 
 # 🏦 Consumer Complaint Classifier: Deep Learning NLP System
 
-   
-
-### 🔗 [https://consumer-complaint-classifier.streamlit.app/](#)
-
 ---
 
 ## 📌 Overview
