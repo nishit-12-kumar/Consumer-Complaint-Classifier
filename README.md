@@ -29,6 +29,39 @@ Beyond simple classification, this system prioritizes **compliance and transpare
 
 ---
 
+---
+
+## 📊 Dataset
+
+This project uses a real-world consumer complaint dataset containing financial complaints submitted by users across multiple banking and financial service categories.
+
+### 📁 Dataset Location
+
+```text
+artifacts/raw.csv
+```
+
+### 🔗 Dataset Download Link
+
+[Download Dataset Here] https://drive.google.com/file/d/1A9-8WruwKb77MzmByuE8JSj7zRv1dh7w/view?usp=sharing
+
+---
+
+## 📌 Dataset Categories
+
+The dataset contains complaints related to:
+
+- Credit Cards
+- Mortgages
+- Student Loans
+- Debt Collection
+- Personal Loans
+- Bank Accounts
+- Credit Reporting
+- Money Transfers
+
+---
+
 ## 🚀 Key Features
 
 ## ✅ Deep Learning Architectures
@@ -297,6 +330,7 @@ streamlit run streamlit_app/app.py
  ┃ ┗ 📜 evaluation_report.json
  ┃ ┗ 📜 glove_matrix.npy
  ┃ ┗ 📜 label_encoder.json
+ ┃ ┗ 📜 raw.csv
  ┃
  ┣ 📂 src/
  ┃ ┣ 📂 components/
