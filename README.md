@@ -6,6 +6,20 @@
 
 🔗 **Live Demo:** https://consumer-complaint-classifier.streamlit.app/
 
+## 📸 Application Screenshots
+
+
+**1. Live Classification & XAI Token Highlighting**
+<div align="center">
+  <img src="images/home_page.png" alt="Classification Results and XAI" width="800"/>
+  <img src="images/classify_page.png" alt="Classification Results and XAI" width="800"/>
+</div>
+
+**2. Automated PDF Compliance Report**
+<div align="center">
+  <img src="images/results_page.pngpng" alt="PDF Report Generation" width="800"/>
+  <img src="images/model_comparison.png" alt="PDF Report Generation" width="800"/></div>
+
 ---
 
 # 🏦 Consumer Complaint Classifier: Deep Learning NLP System
