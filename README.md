@@ -17,8 +17,8 @@
 
 **2. Automated PDF Compliance Report**
 <div align="center">
-  <img src="images/results_page.pngpng" alt="PDF Report Generation" width="800"/>
-  <img src="images/model_comparison.png" alt="PDF Report Generation" width="800"/></div>
+  <img src="images/results_page.png" alt="PDF Report Generation" width="800"/>
+  <img src="images/model_comparison_page.png" alt="PDF Report Generation" width="800"/></div>
 
 ---
 
