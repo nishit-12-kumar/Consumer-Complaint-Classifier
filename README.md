@@ -6,19 +6,35 @@
 
 🔗 **Live Demo:** https://consumer-complaint-classifier.streamlit.app/
 
+---
+
 ## 📸 Application Screenshots
 
-
-**1. Live Classification & XAI Token Highlighting**
+**1. Main Dashboard Home**
 <div align="center">
-  <img src="images/home_page.png" alt="Classification Results and XAI" width="800"/>
+  <img src="images/home_page.png" alt="Dashboard Home Page" width="800"/>
+</div>
+
+<br>
+
+**2. Live Classification & XAI Token Highlighting**
+<div align="center">
   <img src="images/classify_page.png" alt="Classification Results and XAI" width="800"/>
 </div>
 
-**2. Automated PDF Compliance Report**
+<br>
+
+**3. Prediction Results & PDF Report Generation**
 <div align="center">
-  <img src="images/results_page.png" alt="PDF Report Generation" width="800"/>
-  <img src="images/model_comparison_page.png" alt="PDF Report Generation" width="800"/></div>
+  <img src="images/results_page.png" alt="Prediction Results Page" width="800"/>
+</div>
+
+<br>
+
+**4. Model Evaluation & Architecture Comparison**
+<div align="center">
+  <img src="images/model_comparison_page.png" alt="Model Comparison Metrics" width="800"/>
+</div>
 
 ---
 
